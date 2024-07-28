@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="bg-dark center">
+    <div class="display-1 text-white text-center">
+        Joshua D
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-light sticky-top text-white">
+        <div class="container-fluid">
+            <ul class="navbar-nav justify-content-center" style="width:100%">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#About%20Me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Project">Project</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="circle">
+    <div class="container">
+        <div class="test rounded-circle spinner-border-sm mx-auto mt-md-3">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAM1BMVEXk5ueutLeqsbTn6eqpr7PJzc/j5ebf4eLZ3N2wtrnBxsjN0NLGysy6v8HT1tissra8wMNxTKO9AAAFDklEQVR4nO2d3XqDIAxAlfivoO//tEOZWzvbVTEpic252W3PF0gAIcsyRVEURVEURVEURVEURVEURVEURVEURVEURVEURflgAFL/AirAqzXO9R7XNBVcy9TbuMHmxjN6lr92cNVVLKEurVfK/zCORVvW8iUBnC02dj+Wpu0z0Y6QlaN5phcwZqjkOkK5HZyPAjkIjSO4fIdfcOwFKkJlX4zPu7Ha1tIcwR3wWxyFhRG6g4Je0YpSPDJCV8a2Sv2zd1O1x/2WMDZCwljH+clRrHfWCLGK8REMiql//2si5+DKWKcWeAGcFMzzNrXC/0TUwQ2s6+LhlcwjTMlYsUIQzPOCb7YBiyHopyLXIEKPEkI/TgeuiidK/R9FniUDOjRDpvm0RhqjMyyXNjDhCfIMYl1gGjIMIuYsnGEYRMRZOMMunaLVwpWRW008v6fYKDIzxCwVAeNSO90BJW6emelYBRF/kHpYGVaoxTDAaxOFsfP9y8hpJ4xd7gOcij7JNGQ1EYFgkPJa1jQEiYZXRaRINKxSDUW9n+FT82lSKadkiru9/4XPqSLWOekGPoY05TAvLm9orm+YWuwHoBHkZKijNBJGmeb61eL6Ff/6q7bLr7yvv3vKGhpDRjvgjGaPz+gUg6YgcvpyAR2FIZ9U6nEEyZRTovmEU32KichpGn7C17XrfyH9gK/c0CMP05HZIM2uf9sEveizKveBy9/6Qt7o89ne33D525cfcIMW6ab+TMEukQbQbu+xu7X3A9bChmWaCeAkG17bpntwXgWxHaMzGPmUaR5dQZiKqRVeUZ3047fi3nAu28h4CHxCsZAgmEH8Y27jJAhm8c+5RQzRQNVGhVFSfxOYIjp/pP7RxzjevYXVGf4eLt+BJ1vCuLuLkrgABgCGXZ2wik5uty+oBvNirI6mkzhAf4Gsb58Hcm67Jzd+KwD10BYPLL3e0MjvKrgAULnOfveF/O4N2Xb9BZom3gJes3F9X5Zze8/6Yt09b4CrqsEjUv8oFBaR2rl+6CZr2xVrp24o/WitBKuGrrpl1+bFkmK2qXTON4VpbdfLa7o7y/WdLxG7lm2Lqh2clOwTegbvc/vj2U78CwhA87Bn8G5Nk3eOb0Nsr9flz3sG78UUtue4kpv1xvjg3TMay62BMlTlP+vrOMnJsRmt/ze0jsfkPPYdAH57hK+34PeOyc8XIXu5xT2HsUkdZz+adwg8HGFfQ3K5jtDvbUiO4Di9/ywHGrL88pDizZ++oTp+an+SMX/ndymUCwmHMdO7yuOx83pUx/eEMU0AvxWndwgidAqOZ8ypCwdEfvvEo6D9HwpA8wzvmOJEqAg9ySu8g4x0Hb9hSB/BANEKJ+LbPBU0lzbAJs4xt1AoshKkUGQmiH8/jJ0gdhTTLmSegHlPE0oOdXALnqDjKYh3px//fSgSWG8UqfrrIICzYYSJXRr9BSPbpNzw7gBjKjKOYI7ReIGqQRIap5+5MdjyvuDkExvGeXSlONWZAP3/AZBwJohU7QJRGU+cTVH18ELmRPNBmibW6MT/k1b0XhdkRBvyT6SB6EYv/GvhSmRNpGngRULsAlxMCGNXp7w3FfdEbTEEDdLI9TdIKRUzUesa3I461ER8cpNT7gMRhpKmYVS9ELOgCUQsa4SsulciKiLbY+AnHD8cpuhISsnxpamI84sbDq9qYJgf8wiiOBrC7Ml7M7ZECCqKoiiKoiiKoiiKoijv5AvJxlZRyNWWLwAAAABJRU5ErkJggg==" class = "img" alt="...">
+        </div>
+    </div>
+    </div>
+    <div id="About%20Me">
+        <div class="display-3 text-white text-decoration-underline px-4">About Me</div>
+        <p class="text-white px-sm-5 mt-md-3">Welcome to my corner of the web! I'm a dynamic individual with a diverse range of interests. From immersing myself in the captivating worlds of anime and video games to kicking a soccer ball around on the field, I thrive on exploration and excitement. Beyond my leisure pursuits, you'll find me hitting the track, pushing my limits in both physical and mental endeavors. Coding is another passion of mine, as I enjoy the creative process of building and problem-solving. However, I must confess—I am also a D1 procrastinator, mastering the art of delaying tasks until the very last moment. Despite this flaw, I approach life with enthusiasm, always seeking new challenges and experiences</p>
+
+
+    </div>
+    <div id="Skills">
+        <div class="display-3 text-white text-decoration-underline px-4">Skills</div>
+        <p class="text-white px-sm-5 mt-md-3">Some skills that I have include:</p>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active css">
+                    <img src="images/cssBOX.webp" width="" height="230" class="rounded mx-auto d-block mb-md-4 mt-md-4 py-sm-4" alt="...">
+                    <h5 class="text-white text-center text-decoration-underline">CSS</h5>
+                    <p class="text-white text-center">Style sheet language for styling web pages.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/js.png" class="rounded mx-auto d-block mb-md-5 mt-md-5 py-sm-5" alt="...">
+                    <h5 class="text-white text-center text-decoration-underline">JavaScript</h5>
+                    <p class="text-white text-center">High-level programming language primarily for web development, adding interactivity to websites</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Html.png" height="225" class="rounded mx-auto d-block mb-md-5 mt-md-5 py-sm-5" alt="...">
+                    <h5 class="text-white text-center text-decoration-underline">HTML</h5>
+                    <p class="text-white text-center">Markup language for creating web pages.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/java.jpg" class="rounded mx-auto d-block mb-md-5 mt-md-5 py-sm-5" alt="...">
+                    <h5 class="text-white text-center text-decoration-underline">JAVA</h5>
+                    <p class="text-white text-center">General-purpose programming language used for building applications.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bs.png" class="rounded mx-auto d-block mb-md-5 mt-md-5 py-sm-5" alt="...">
+                    <h5 class="text-white text-center text-decoration-underline">Bootstrap</h5>
+                    <p class="text-white text-center">Front-end framework for developing responsive and mobile-first websites.</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="Project">
+        <div class="display-3 text-white text-decoration-underline px-4">Project</div>
+        <p class="text-white px-5"> I have worked on many projects that includes Java, HTML, CSS, etc.</p>
+
+
+            <div class="moved">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Stacks and Queue</h4>
+                        <p class="card-text">program that simulates a bathroom line and shipment tracking on a fleet of trucks.</p>
+                        <p class="card-text">CODE WILL NOT BE SHOWN FOR SAFETY</p>
+                        <a href="https://docs.google.com/document/d/1x0AS3PPktfW2_G9v7qF2WYZSo1c5yHyXC62-ti3h-3Q/edit" class="btn btn-danger">Code Will Not Be SHOWN</a>
+                    </div>
+                </div>
+            </div>
+
+    <div class="move">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="images/web.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Testing HTML, JS and CSS</h4>
+                        <p class="card-text">I tested and used HTML, JS and CSS on fresh website.</p>
+                        <a href="https://joshua272008.github.io/Website-Practice/" class="btn btn-primary">Monkey</a>
+                    </div>
+                </div>
+        </div>
+
+            <div class="moves">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="images/deli.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Deli</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="https://mr-goldstein-s-computer-science-classes.github.io/deli-project-Joshua272008/" class="btn btn-primary">Deli</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
